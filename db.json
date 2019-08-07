@@ -1,1 +1,162 @@
-{"forms":[{"id":"1ae15fd1-563d-4373-b0ec-54d0a1ef72a2","name":"My Brand New Form","fields":[{"type":"text","name":"username","label":"enter username here","placeholder":"John Doe"},{"type":"number","name":"year","label":"enter year of birth ","placeholder":"2006"},{"type":"dropdown","name":"gender","label":"Gender","items":[{"name":"Male","value":"m"},{"name":"Female","value":"w"}],"default":0},{"type":"checkmark","name":"news","label":"get news on email"}],"domain":"shpax","fields_count":4},{"id":"da04689a-2124-49f9-a3b7-8b25628af2e0","name":"My 2","fields":[],"domain":"shpax","fields_count":0}],"fills":[]}
+{
+  "forms": [
+    {
+      "id": "1ae15fd1-563d-4373-b0ec-54d0a1ef72a2",
+      "name": "My Brand New Form",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "label": "enter username here",
+          "placeholder": "John Doe"
+        },
+        {
+          "type": "number",
+          "name": "year",
+          "label": "enter year of birth ",
+          "placeholder": "2006"
+        },
+        {
+          "type": "dropdown",
+          "name": "gender",
+          "label": "Gender",
+          "items": [
+            {
+              "name": "Male",
+              "value": "m"
+            },
+            {
+              "name": "Female",
+              "value": "w"
+            }
+          ],
+          "default": 0
+        },
+        {
+          "type": "checkmark",
+          "name": "news",
+          "label": "get news on email"
+        }
+      ],
+      "domain": "shpax",
+      "fields_count": 4
+    },
+    {
+      "id": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "name": "JS School Form",
+      "fields": [
+        {
+          "type": "text",
+          "name": "Name",
+          "label": "Name",
+          "placeholder": ""
+        },
+        {
+          "type": "dropdown",
+          "name": "Gender",
+          "label": "Gender",
+          "placeholder": ""
+        },
+        {
+          "type": "number",
+          "name": "Homeworks done",
+          "label": "Homeworks done",
+          "placeholder": ""
+        },
+        {
+          "type": "number",
+          "name": "Rating",
+          "label": "Rating",
+          "placeholder": ""
+        }
+      ],
+      "domain": "shpax",
+      "fields_count": 4
+    }
+  ],
+  "fills": [
+    {
+      "id": "dc5cada1-2a8d-42ea-a59d-8dd5bde2137f",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Mark",
+        "Gender": "m",
+        "Homeworks done": 7,
+        "Rating": 16
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "019c3e6a-7de7-4444-9c19-f0755b904920",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "John",
+        "Gender": "m",
+        "Homeworks done": 8,
+        "Rating": 18
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "c4d31a01-080e-4806-8cf4-d350893be0bd",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Jane",
+        "Gender": "w",
+        "Homeworks done": 9,
+        "Rating": 20
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "e57bf558-7520-4476-82c0-c5d62afd1774",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Zianja",
+        "Gender": "?",
+        "Homeworks done": 9,
+        "Rating": 20
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "d54d9e9a-8f1d-44e9-9080-02922e5de889",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Alise",
+        "Gender": "w",
+        "Homeworks done": 8,
+        "Rating": 18
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "95e427c0-ae65-484d-ac3b-b6b7a3bdfb5e",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Jake",
+        "Gender": "m",
+        "Homeworks done": 9,
+        "Rating": 20
+      },
+      "domain": "shpax"
+    },
+    {
+      "id": "5d5235a2-44fc-4366-92e7-05e183ceaf51",
+      "formId": "da04689a-2124-49f9-a3b7-8b25628af2e0",
+      "fields": {
+        "Name": "Kenny",
+        "Gender": "m",
+        "Homeworks done": 9,
+        "Rating": 20
+      },
+      "domain": "shpax"
+    }
+  ],
+  "users": [
+    {
+      "username": "shpax",
+      "password": "asd"
+    }
+  ]
+}

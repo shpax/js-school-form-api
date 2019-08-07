@@ -9,6 +9,7 @@ const DB_PATH = './db.json';
 const DEFAULT_DB_STRUCTURE = {
   forms: [],
   fills: [],
+  users: [],
 };
 
 let data = {};
@@ -27,6 +28,8 @@ async function load() {
   
     dataLoaded = true;
   }
+
+  if (!data.users) data.users = []; // migration
 
   return Promise.resolve(data);
 }
